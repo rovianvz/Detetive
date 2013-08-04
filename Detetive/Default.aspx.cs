@@ -10,7 +10,7 @@ namespace Detetive
 {
     public partial class Default : System.Web.UI.Page
     {
-        private static string RESULTADO = "<h2>Solução:</h2> "+
+        private static string RESULT = "<h2>Solução:</h2> "+
                                              "<h3 id=\"resposta\">{0}</h3> "+
                                              "<h2>Transcrição do depoimento:</h2> "+
                                              "{1}";
@@ -39,7 +39,7 @@ namespace Detetive
                            EventArgs e)
         {
             //Initialize the witness
-            Testemunha testemunha = new Testemunha(lbSuspects.SelectedIndex,
+            Witness witness = new Witness(lbSuspects.SelectedIndex,
                                                    lbPlaces.SelectedIndex,
                                                    lbGuns.SelectedIndex);
 
@@ -57,7 +57,7 @@ namespace Detetive
             {
                 guess = detective.nextGuess(nextTip);
                 
-                nextTip = testemunha.nextTip(guess);
+                nextTip = witness.nextTip(guess);
                 switch (nextTip)
                 {
                     case 1:
@@ -85,7 +85,7 @@ namespace Detetive
                 counter++;
             } while (nextTip != 0);
 
-            result.Text = string.Format(RESULTADO, solution, sb.ToString());
+            result.Text = string.Format(RESULT, solution, sb.ToString());
             upResults.Update();
         }
     }
