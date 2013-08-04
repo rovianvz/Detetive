@@ -77,7 +77,7 @@
     <Compile Include="control\Constants.cs" />
     <Compile Include="control\Data.cs" />
     <Compile Include="control\LinUstOrvalds.cs" />
-    <Compile Include="control\Testemunha.cs" />
+    <Compile Include="control\Witness.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
