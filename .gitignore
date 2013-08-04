@@ -1,3 +1,4 @@
 TestResult/
 bin/
 obj/
+*.suo
