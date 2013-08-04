@@ -1,5 +1,3 @@
 TestResult/
-Detetive/bin
-Detetive/obj
-DetetiveTests/bin
-DetetiveTests/obj
+bin/
+obj/
