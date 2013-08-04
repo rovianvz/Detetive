@@ -1,0 +1,5 @@
+c:\users\rovian\documents\visual studio 2012\Projects\Detetive\Detetive\bin\Detetive.dll
+c:\users\rovian\documents\visual studio 2012\Projects\Detetive\Detetive\bin\Detetive.pdb
+c:\users\rovian\documents\visual studio 2012\Projects\Detetive\Detetive\obj\Debug\Detetive.csprojResolveAssemblyReference.cache
+c:\users\rovian\documents\visual studio 2012\Projects\Detetive\Detetive\obj\Debug\Detetive.dll
+c:\users\rovian\documents\visual studio 2012\Projects\Detetive\Detetive\obj\Debug\Detetive.pdb
